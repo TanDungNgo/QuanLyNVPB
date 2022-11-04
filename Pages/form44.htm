@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>form44</title>
+    <script>
+      function SelectId() {
+        var id = document.f1.t1.value;
+        document.f1.s1.selectedIndex = id;
+      }
+    </script>
+  </head>
+  <body>
+    <form action="" name="f1" align="center">
+      <select name="s1" id="">
+        <option>Index 0</option>
+        <option>Index 1</option>
+        <option>Index 2</option>
+        <option>Index 3</option>
+      </select>
+      <input type="text" name="t1" />
+      <input type="button" name="b1" value="OK" onclick="SelectId()" />
+    </form>
+  </body>
+</html>

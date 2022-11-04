@@ -34,12 +34,12 @@
                     </div>
                     <div class="form-group">
                         <select class="form-select mb-3" name="IDPB">
-                            <option selected>Chon IDPB</option>
+                            <option selected>Chon ten phong ban</option>
                             <?php
                             while ($row = mysqli_fetch_array($rs, MYSQLI_BOTH)) {
                             ?>
                                 <option value="<?php echo $row['IDPB']; ?>">
-                                    <?php echo $row['IDPB']; ?>
+                                    <?php echo $row['Tenpb']; ?>
                                 </option>
                             <?php } ?>
                         </select>

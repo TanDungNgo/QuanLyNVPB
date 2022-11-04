@@ -30,7 +30,7 @@
                     <div class="form-group row mb-3">
                         <label class="col-sm-2 col-form-label">IDPB</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" value="<?php echo $row['IDPB']; ?>">
+                            <input type="text" class="form-control" value="<?php echo $row['IDPB']; ?>" readonly>
                         </div>
                     </div>
                     <div class="form-group row mb-3">

@@ -14,7 +14,7 @@ if ($user == "" || $pass == "") {
     if (mysqli_num_rows($rs) == 0)
         header("Location:login.php");
     else
-        header("Location:home.php?login=success");
+        header("Location:user_index.php");
 
     mysqli_free_result($rs);
     mysqli_close($link);

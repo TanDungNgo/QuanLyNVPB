@@ -22,7 +22,7 @@
     <div class="card">
       <h4 align="center">Login</h4>
       <div class="card-body">
-        <form action="Xulilogin.php">
+        <form action="Xulilogin.php" target="_top" enctype="multipart/form-data" method="POST">
           <div class="form-group">
             <input type="email" name="username" class="form-control mb-3" placeholder="Nhap username" />
           </div>

@@ -1,2 +1,2 @@
 <?php
-header("Location:home.php?logout=success");
+header("Location:../");

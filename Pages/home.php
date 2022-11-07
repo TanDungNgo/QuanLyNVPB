@@ -79,26 +79,6 @@
       color: white;
     }
   </style>
-  <?php
-  if (isset($_REQUEST["login"])) {
-  ?>
-    <a href="./user_sidebar.php" target="t2" id="sidebar"></a>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        document.getElementById("sidebar").click();
-      });
-    </script>
-  <?php } ?>
-  <?php
-  if (isset($_REQUEST["logout"])) {
-  ?>
-    <a href="./sidebar.php" target="t2" id="sidebar"></a>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        document.getElementById("sidebar").click();
-      });
-    </script>
-  <?php } ?>
 </head>
 
 <body style="margin: 0">

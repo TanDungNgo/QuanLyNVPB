@@ -28,7 +28,7 @@
         <a href="./Capnhat.php" target="t3" class="btn btn-outline-warning">CapNhat</a>
         <a href="./Xoa.php" target="t3" class="btn btn-outline-info">XoaNhanVien</a>
         <a href="./Xoatatca.php" target="t3" class="btn btn-outline-dark">XoaTatCa</a>
-        <a href="./Xulidangxuat.php" target="t3" class="btn btn-danger">DangXuat</a>
+        <a href="./Xulidangxuat.php" target="_top" class="btn btn-danger">DangXuat</a>
     </div>
 </body>
 
